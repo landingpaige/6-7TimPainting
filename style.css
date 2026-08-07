@@ -1025,6 +1025,23 @@ svg { display: block; }
 }
 .review-card-cta p { font-size: 0.9rem; color: var(--stone); line-height: 1.7; }
 
+/* Small compatibility helpers for injected review HTML */
+.review-text {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--charcoal);
+  margin-bottom: 12px;
+}
+.review-meta {
+  font-size: 0.85rem;
+  color: var(--stone);
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .reviews-grid { grid-template-columns: 1fr; }
+}
+
 /* ============================================================
    SERVICE AREAS
    ============================================================ */
