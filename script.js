@@ -44,20 +44,32 @@ if (navToggle && mobileNav) {
 }
 
 /* ─── Smooth scroll (offset for sticky header) ───────────── */
+function scrollToAnchor(id) {
+  const target = document.querySelector(id);
+  if (!target) return;
+  const h = parseInt(
+    getComputedStyle(document.documentElement).getPropertyValue('--header-h')
+  ) || 80;
+  const top = target.getBoundingClientRect().top + window.scrollY - h;
+  window.scrollTo({ top, behavior: 'smooth' });
+}
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', e => {
     const id = anchor.getAttribute('href');
     if (id === '#' || id === '#top') return;
-    const target = document.querySelector(id);
-    if (!target) return;
+    if (!document.querySelector(id)) return;
     e.preventDefault();
-    const h = parseInt(
-      getComputedStyle(document.documentElement).getPropertyValue('--header-h')
-    ) || 80;
-    const top = target.getBoundingClientRect().top + window.scrollY - h;
-    window.scrollTo({ top, behavior: 'smooth' });
+    scrollToAnchor(id);
   });
 });
+
+/* Landing on a page with a hash (eg. contact.html#contact) — browser jumps
+   there instantly before layout/fonts settle, and ignores the sticky header
+   offset. Re-run the offset scroll once the page has loaded. */
+if (window.location.hash && window.location.hash !== '#top') {
+  window.addEventListener('load', () => scrollToAnchor(window.location.hash));
+}
 
 /* ─── Scroll reveal ──────────────────────────────────────── */
 if ('IntersectionObserver' in window) {

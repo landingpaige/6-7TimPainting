@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Request a quick estimate from Tim MacDonough Painting Company. We respond within one business day — serving Rochester Hills, Bloomfield Hills, Birmingham, and Metro Detroit since 2006." />
+  <title>Get a Quick Estimate | Tim MacDonough Painting Company</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Tim MacDonough Painting Company — Home">
+        <div class="logo-icon" aria-hidden="true">
+          <svg viewBox="0 0 36 36" fill="none"><path d="M18 5L5 16h4v13h8v-7h2v7h8V16h4L18 5z" fill="#F2B322" opacity="0.85"/><rect x="13" y="21" width="4" height="6" rx="1" fill="#0E1D3A" opacity="0.5"/><path d="M26 9l4 3M28 7l1 5" stroke="#F2B322" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Tim MacDonough</span>
+          <div class="logo-rule"></div>
+          <span class="logo-sub">Painting Company</span>
+        </div>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="residential.html">Residential</a></li>
+          <li><a href="commercial.html">Commercial</a></li>
+          <li><a href="exterior.html">Exterior</a></li>
+          <li><a href="interior.html">Interior</a></li>
+          <li><a href="service-areas.html">Service Areas</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a href="tel:+12489782946" class="header-phone">(248) 978-2946</a>
+        <a href="#quick-estimate" class="btn btn-gold">Free Estimate</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-hidden="true">
+      <ul>
+        <li><a href="residential.html">Residential</a></li>
+        <li><a href="commercial.html">Commercial</a></li>
+        <li><a href="exterior.html">Exterior</a></li>
+        <li><a href="interior.html">Interior</a></li>
+        <li><a href="service-areas.html">Service Areas</a></li>
+        <li><a href="index.html#reviews">Reviews</a></li>
+      </ul>
+      <div class="mobile-nav-actions">
+        <a href="tel:+12489782946" class="mobile-nav-phone">(248) 978-2946</a>
+        <a href="#quick-estimate" class="btn btn-gold btn-lg">Get a Free Estimate</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="contact-page-hero" style="padding-bottom: 40px;">
+      <div class="container">
+        <div class="contact-page-hero-content reveal" style="max-width: 640px;">
+          <span class="section-label">Quick Estimate</span>
+          <h1>Get a Quick<br><em>Estimate.</em></h1>
+          <p>Tell us a bit about your project below and we'll respond within one business day — usually sooner. No pressure, no obligation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="quick-estimate" style="padding-top: 40px;">
+      <div class="container">
+        <div class="contact-form-wrap" style="max-width: 620px; margin: 0 auto;">
+          <h3>Request Your Free Estimate</h3>
+
+          <div class="form-trust-strip">
+            <div class="form-trust-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Free Estimate</span>
+            </div>
+            <div class="form-trust-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>No Pressure</span>
+            </div>
+            <div class="form-trust-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Same-Day Response</span>
+            </div>
+            <div class="form-trust-item">
+              <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+              <span>Licensed &amp; Insured</span>
+            </div>
+          </div>
+
+          <form id="contactForm" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" novalidate aria-label="Request a free painting estimate">
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name <span class="req">*</span></label>
+                <input type="text" id="firstName" name="firstName" placeholder="First name" required autocomplete="given-name" />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name <span class="req">*</span></label>
+                <input type="text" id="lastName" name="lastName" placeholder="Last name" required autocomplete="family-name" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address <span class="req">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(586) 000-0000" autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="city">Your City / Location <span class="req">*</span></label>
+              <input type="text" id="city" name="city" placeholder="Oakland Township, MI" required autocomplete="address-level2" />
+            </div>
+            <div class="form-group">
+              <label for="service">What Are You Looking For?</label>
+              <select id="service" name="service">
+                <option value="">— Select a service —</option>
+                <option value="interior">Interior Painting</option>
+                <option value="exterior">Exterior Painting</option>
+                <option value="residential">Full Residential Project</option>
+                <option value="commercial">Commercial Painting</option>
+                <option value="trim">Trim, Crown Molding &amp; Millwork</option>
+                <option value="drywall">Drywall Repair &amp; Texture</option>
+                <option value="powerwash">Power Washing</option>
+                <option value="other">Not Sure Yet — Let's Talk</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anything Else We Should Know?</label>
+              <textarea id="message" name="message" rows="4" placeholder="Size of project, timeline, specific concerns, property type — whatever helps us understand what you're working with…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold btn-lg btn-full">Request My Free Estimate</button>
+            <p class="form-disclaimer">We'll never share your information. Tim will reach out within one business day.</p>
+            <div class="form-success" id="formSuccess" aria-live="polite" hidden>
+              <strong>You're in good hands.</strong> Tim will be in touch by end of business day.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="Tim MacDonough Painting Company">
+          <div class="logo-text"><span class="logo-name">Tim MacDonough</span><div class="logo-rule"></div><span class="logo-sub">Painting Company</span></div>
+        </a>
+        <p>Craftsmanship for Metro Detroit's finest homes. Serving the area since 2006 — owner-operated, zero subcontractors.</p>
+        <div class="footer-badges"><span class="badge">Licensed</span><span class="badge">Insured</span><span class="badge">Est. 2006</span></div>
+      </div>
+      <div class="footer-col"><h4>Services</h4><ul>
+        <li><a href="interior.html">Interior Painting</a></li><li><a href="exterior.html">Exterior Painting</a></li>
+        <li><a href="residential.html">Luxury Residential</a></li><li><a href="commercial.html">Commercial Painting</a></li>
+        <li><a href="interior.html">Trim &amp; Crown Molding</a></li><li><a href="exterior.html">Power Washing</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Service Areas</h4><ul>
+        <li><a href="service-areas.html">Rochester Hills</a></li><li><a href="service-areas.html">Bloomfield Hills</a></li>
+        <li><a href="service-areas.html">Birmingham</a></li><li><a href="service-areas.html">Lake Orion</a></li>
+        <li><a href="service-areas.html">Oxford &amp; Troy</a></li><li><a href="service-areas.html">Metro Detroit</a></li>
+      </ul></div>
+      <div class="footer-col footer-contact-col"><h4>Get in Touch</h4>
+        <a href="tel:+12489782946">(248) 978-2946</a>
+        <a href="mailto:timmacdonoughpainting@gmail.com">timmacdonoughpainting@gmail.com</a>
+        <p>Metro Detroit, Michigan</p><p>Mon–Fri: 7am–6pm<br>Sat: 8am–3pm</p>
+        <a href="#quick-estimate" class="btn btn-gold">Free Estimate</a>
+      </div>
+    </div>
+    <div class="footer-divider"></div>
+    <div class="container"><div class="footer-bottom">
+      <span class="footer-promise">Rooted in Trust. Delivering Excellence.</span>
+      <p class="footer-copy">&copy; <span id="year"></span> Tim MacDonough Painting Company &nbsp;·&nbsp; Metro Detroit, Michigan</p>
+    </div></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
