@@ -1595,6 +1595,24 @@ svg { display: block; }
   color: rgba(255,255,255,.28);
 }
 
+/* Social icon links in footer */
+.social-links {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.social-link {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.9);
+  transition: color var(--t), transform var(--t);
+}
+.social-link svg { width: 18px; height: 18px; }
+.social-link:hover { color: var(--gold); transform: translateY(-2px); }
+
 /* ============================================================
    AREA CARD (service-areas page)
    ============================================================ */
