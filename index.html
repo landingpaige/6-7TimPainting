@@ -398,11 +398,11 @@
         </div>
         <div class="gallery-grid">
           <div class="gallery-item reveal">
-            <img src=".claude/518954623_674558782253543_4372270863981000647_n.jpg" alt="Exterior painting project in Oakland Township, Michigan" loading="lazy" decoding="async" />
+            <img src="images/718744573_2457778028067732_9120128460641081104_n.jpeg" alt="Exterior painting project in Oakland Township, Michigan" loading="lazy" decoding="async" />
             <div class="gallery-overlay"><span class="gallery-label">Exterior · Oakland Township</span></div>
           </div>
           <div class="gallery-item reveal reveal-d1">
-            <img src=".claude/interior-rochester-hills.webp" alt="Interior painting project in Rochester Hills, Michigan" loading="lazy" decoding="async" />
+            <img src="images/Screenshot 2026-08-06 at 7.42.11 PM.png" alt="Interior painting project in Rochester Hills, Michigan" loading="lazy" decoding="async" />
             <div class="gallery-overlay"><span class="gallery-label">Interior · Rochester Hills</span></div>
           </div>
           <div class="gallery-item reveal reveal-d2">
@@ -419,7 +419,7 @@
           </div>
           <div class="gallery-item reveal reveal-d5">
             <!-- Placeholder image — replace with actual Tim MacDonough project photo -->
-            <img src=".claude/kitchen-painting-rochester-hills.webp" alt="Kitchen and cabinet painting project in Rochester Hills, Michigan" loading="lazy" decoding="async" />
+            <img src="images/718744573_2457778028067732_9120128460641081104_n.jpeg" alt="Kitchen and cabinet painting project in Rochester Hills, Michigan" loading="lazy" decoding="async" />
             <div class="gallery-overlay"><span class="gallery-label">Kitchen Painting · Rochester Hills</span></div>
           </div>
         </div>
@@ -921,7 +921,9 @@
               </div>
             </div>
 
-            <form id="contactForm" novalidate aria-label="Request a free painting estimate">
+            <form id="contactForm" name="contact" data-netlify="true" data-netlify-honeypot="bot-field" novalidate aria-label="Request a free painting estimate">
+              <input type="hidden" name="form-name" value="contact" />
+              <p hidden><label>Don't fill this out: <input name="bot-field" /></label></p>
               <div class="form-row">
                 <div class="form-group">
                   <label for="firstName">First Name <span class="req">*</span></label>
