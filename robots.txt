@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://timmacdonoughpainting.com/sitemap.xml
+Sitemap: https://www.timmacdonoughpainting.com/sitemap.xml
