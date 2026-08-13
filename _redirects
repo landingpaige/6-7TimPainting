@@ -1,40 +1,5 @@
-/berkley-mi              /berkley-mi.html              301!
-/beverly-hills-mi        /beverly-hills-mi.html        301!
-/bingham-farms-mi        /bingham-farms-mi.html        301!
-/birmingham-mi           /birmingham-mi.html           301!
-/bloomfield-hills-mi     /bloomfield-hills-mi.html     301!
-/clawson-mi              /clawson-mi.html              301!
-/clinton-township-mi     /clinton-township-mi.html     301!
-/commercial              /commercial.html              301!
-/contact                 /contact.html                 301!
-/exterior                /exterior.html                301!
-/franklin-mi             /franklin-mi.html             301!
-/grosse-pointe-farms-mi  /grosse-pointe-farms-mi.html  301!
-/grosse-pointe-mi        /grosse-pointe-mi.html        301!
-/grosse-pointe-shores-mi /grosse-pointe-shores-mi.html 301!
-/grosse-pointe-woods-mi  /grosse-pointe-woods-mi.html  301!
-/huntington-woods-mi     /huntington-woods-mi.html     301!
-/interior                /interior.html                301!
-/lake-orion              /lake-orion.html              301!
-/lathrup-village-mi      /lathrup-village-mi.html      301!
-/macomb-township-mi      /macomb-township-mi.html      301!
-/metamora-mi             /metamora-mi.html             301!
-/new-baltimore-mi        /new-baltimore-mi.html        301!
-/oakland-township        /oakland-township.html        301!
-/orchard-lake-mi         /orchard-lake-mi.html         301!
-/oxford-mi               /oxford-mi.html                301!
-/pleasant-ridge-mi       /pleasant-ridge-mi.html       301!
-/quick-estimate          /quick-estimate.html          301!
-/residential             /residential.html             301!
-/rochester-hills         /rochester-hills.html         301!
-/rochester-mi            /rochester-mi.html            301!
-/romeo-mi                /romeo-mi.html                301!
-/royal-oak-mi            /royal-oak-mi.html            301!
-/service-areas           /service-areas.html           301!
-/shelby-township         /shelby-township.html         301!
-/sterling-heights-mi     /sterling-heights-mi.html     301!
-/sylvan-lake-mi          /sylvan-lake-mi.html          301!
-/troy-mi                 /troy-mi.html                 301!
-/utica-mi                /utica-mi.html                301!
-/washington-township-mi  /washington-township-mi.html  301!
-/west-bloomfield-mi      /west-bloomfield-mi.html      301!
+# Force a single-hop redirect straight to the canonical https+www URL,
+# instead of Netlify's default two-hop behavior (bare-http apex -> https
+# apex -> https www) for any non-canonical entry point.
+http://timmacdonoughpainting.com/*   https://www.timmacdonoughpainting.com/:splat   301!
+https://timmacdonoughpainting.com/*  https://www.timmacdonoughpainting.com/:splat   301!
