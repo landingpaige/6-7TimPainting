@@ -2355,3 +2355,36 @@ a.contact-info-value:hover { color: var(--gold); }
   body { padding-bottom: 56px; }
   .mobile-cta-bar.nav-open { display: none; }
 }
+
+/* ============================================================
+   LEGAL / POLICY CONTENT
+   ============================================================ */
+.legal-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+.legal-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  color: var(--navy);
+  margin: 2.5rem 0 0.75rem;
+}
+.legal-content h2:first-child { margin-top: 0; }
+.legal-content p,
+.legal-content li {
+  color: var(--charcoal);
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+.legal-content ul {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+.legal-content .legal-updated {
+  color: var(--stone);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 2.5rem;
+}
+.legal-content a { color: var(--navy); text-decoration: underline; }
