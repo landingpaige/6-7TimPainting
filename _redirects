@@ -1,9 +1,3 @@
-# Force a single-hop redirect straight to the canonical https+www URL,
-# instead of Netlify's default two-hop behavior (bare-http apex -> https
-# apex -> https www) for any non-canonical entry point.
-http://timmacdonoughpainting.com/*   https://www.timmacdonoughpainting.com/:splat   301!
-https://timmacdonoughpainting.com/*  https://www.timmacdonoughpainting.com/:splat   301!
-
 # Clean/extensionless URLs for every page.
 /berkley-mi              /berkley-mi.html              301!
 /beverly-hills-mi        /beverly-hills-mi.html        301!
