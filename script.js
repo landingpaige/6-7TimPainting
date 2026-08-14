@@ -64,7 +64,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-/* Landing on a page with a hash (eg. contact.html#contact) — browser jumps
+/* Landing on a page with a hash (eg. /contact#contact) — browser jumps
    there instantly before layout/fonts settle, and ignores the sticky header
    offset. Re-run the offset scroll once the page has loaded. */
 if (window.location.hash && window.location.hash !== '#top') {
@@ -236,10 +236,10 @@ const yearEl = document.getElementById('year');
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 /* ─── Active nav link ────────────────────────────────────── */
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+const currentPath = window.location.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
 document.querySelectorAll('.nav-list a').forEach(a => {
-  const href = a.getAttribute('href');
-  if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+  const href = (a.getAttribute('href') || '').replace(/\/$/, '') || '/';
+  if (href === currentPath) {
     a.classList.add('active');
   }
 });
