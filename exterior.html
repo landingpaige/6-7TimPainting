@@ -31,56 +31,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": ["LocalBusiness", "HousePainter"],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/exterior#webpage",
+        "url": "https://www.timmacdonoughpainting.com/exterior",
+        "name": "Exterior Painting Contractor | Tim MacDonough Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Rochester Hills, MI",
-          "Troy, MI",
-          "Birmingham, MI",
-          "Lake Orion, MI",
-          "Shelby Township, MI",
-          "Metamora, MI",
-          "Oakland Township, MI",
-          "Auburn Hills, MI"
-        ],
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-            "opens": "07:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
-          }
-        ]
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+        },
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
         "name": "Exterior Painting in Metro Detroit",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
         "areaServed": "Rochester Hills, MI and surrounding Metro Detroit communities",
         "serviceType": "Exterior Painting",
-        "description": "Exterior painting for homes in Rochester Hills, MI and surrounding Metro Detroit communities. Siding, trim, fascia, soffits, doors, shutters, decks, fences, and power washing. Michigan-climate-rated coatings and thorough surface prep."
+        "description": "Exterior painting for homes in Rochester Hills, MI and surrounding Metro Detroit communities. Siding, trim, fascia, soffits, doors, shutters, decks, fences, and power washing. Michigan-climate-rated coatings and thorough surface prep.",
+        "@id": "https://www.timmacdonoughpainting.com/exterior#service",
+        "url": "https://www.timmacdonoughpainting.com/exterior"
       },
       {
         "@type": "FAQPage",
@@ -103,7 +81,7 @@
           },
           {
             "@type": "Question",
-            "name": "What exterior surfaces do you paint?",
+            "name": "What exterior surfaces do you paint on a home?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "We handle siding, clapboard, trim, fascia, soffits, doors, shutters, window surrounds, decks, and fences for homes throughout Oakland Township, Lake Orion, Shelby Township, Rochester Hills, Metamora, and surrounding Metro Detroit communities."
@@ -125,11 +103,13 @@
               "text": "Yes. Every exterior paint project begins with a thorough power wash, followed by scraping, caulking, and priming as needed. Power washing is also available as a standalone service to restore curb appeal between paint jobs."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/exterior#faq"
       }
     ]
   }
   </script>
+
 
   <!-- BreadcrumbList Schema -->
   <script type="application/ld+json">

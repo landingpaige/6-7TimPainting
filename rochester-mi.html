@@ -33,71 +33,56 @@
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/rochester-mi#webpage",
+        "url": "https://www.timmacdonoughpainting.com/rochester-mi",
+        "name": "Rochester, MI Painting Contractor | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Rochester, MI",
-          "Rochester Hills, MI, Oakland Township, MI, Lake Orion, MI, Troy, MI, Auburn Hills, MI",
-          "Metro Detroit, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/rochester-mi#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in Rochester, MI",
+        "@id": "https://www.timmacdonoughpainting.com/rochester-mi#service",
+        "name": "Painting Services in Rochester, MI",
+        "url": "https://www.timmacdonoughpainting.com/rochester-mi",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
-        "areaServed": "Rochester, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes and businesses in Rochester, MI. Walls, trim, ceilings, and cabinets finished with premium prep and protection."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in Rochester, MI",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+        "areaServed": {
+          "@type": "City",
+          "name": "Rochester, MI"
         },
-        "areaServed": "Rochester, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for Rochester, MI homes and commercial properties. Siding, trim, doors, shutters, and porches completed with durable coatings."
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in Rochester, MI."
       },
       {
         "@type": "FAQPage",
@@ -126,11 +111,13 @@
               "text": "Yes. We handle commercial painting for storefronts and offices throughout Rochester's downtown and surrounding areas."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/rochester-mi#faq"
       }
     ]
   }
   </script>
+
 
 
   <!-- BreadcrumbList Schema -->

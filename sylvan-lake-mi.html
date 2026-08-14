@@ -33,71 +33,56 @@
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/sylvan-lake-mi#webpage",
+        "url": "https://www.timmacdonoughpainting.com/sylvan-lake-mi",
+        "name": "Sylvan Lake, MI Painter | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Sylvan Lake, MI",
-          "Pontiac, MI, Waterford, MI, West Bloomfield, MI, Auburn Hills, MI, Clarkston, MI",
-          "Metro Detroit, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/sylvan-lake-mi#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in Sylvan Lake, MI",
+        "@id": "https://www.timmacdonoughpainting.com/sylvan-lake-mi#service",
+        "name": "Painting Services in Sylvan Lake, MI",
+        "url": "https://www.timmacdonoughpainting.com/sylvan-lake-mi",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
-        "areaServed": "Sylvan Lake, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes and businesses in Sylvan Lake, MI. Walls, trim, ceilings, and cabinets finished with premium prep and protection."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in Sylvan Lake, MI",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+        "areaServed": {
+          "@type": "City",
+          "name": "Sylvan Lake, MI"
         },
-        "areaServed": "Sylvan Lake, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for Sylvan Lake, MI homes and commercial properties. Siding, trim, doors, shutters, and porches completed with durable coatings."
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in Sylvan Lake, MI."
       },
       {
         "@type": "FAQPage",
@@ -126,11 +111,13 @@
               "text": "Yes. We handle interior, exterior, residential, and commercial painting throughout Sylvan Lake and nearby Orchard Lake, West Bloomfield, and Bloomfield Hills."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/sylvan-lake-mi#faq"
       }
     ]
   }
   </script>
+
 
 
   <!-- BreadcrumbList Schema -->

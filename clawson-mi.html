@@ -33,71 +33,56 @@
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/clawson-mi#webpage",
+        "url": "https://www.timmacdonoughpainting.com/clawson-mi",
+        "name": "Clawson, MI Painting Contractor | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Clawson, MI",
-          "Royal Oak, MI, Troy, MI, Hazel Park, MI, Madison Heights, MI, Birmingham, MI",
-          "Metro Detroit, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/clawson-mi#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in Clawson, MI",
+        "@id": "https://www.timmacdonoughpainting.com/clawson-mi#service",
+        "name": "Painting Services in Clawson, MI",
+        "url": "https://www.timmacdonoughpainting.com/clawson-mi",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
-        "areaServed": "Clawson, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes and businesses in Clawson, MI. Walls, trim, ceilings, and cabinets finished with premium prep and protection."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in Clawson, MI",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+        "areaServed": {
+          "@type": "City",
+          "name": "Clawson, MI"
         },
-        "areaServed": "Clawson, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for Clawson, MI homes and commercial properties. Siding, trim, doors, shutters, and porches completed with durable coatings."
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in Clawson, MI."
       },
       {
         "@type": "FAQPage",
@@ -115,7 +100,7 @@
             "name": "What surfaces can you paint?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Interior walls, trim, ceilings, and cabinets, along with exterior siding, trim, doors, shutters, and porches \u2014 including older plaster and original wood trim common in Clawson."
+              "text": "Interior walls, trim, ceilings, and cabinets, along with exterior siding, trim, doors, shutters, and porches — including older plaster and original wood trim common in Clawson."
             }
           },
           {
@@ -126,11 +111,13 @@
               "text": "Yes. We handle interior, exterior, residential, and commercial painting throughout Clawson and nearby Royal Oak, Berkley, and Troy."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/clawson-mi#faq"
       }
     ]
   }
   </script>
+
 
 
   <!-- BreadcrumbList Schema -->

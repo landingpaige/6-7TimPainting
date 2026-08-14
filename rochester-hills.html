@@ -32,79 +32,56 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": ["LocalBusiness", "HousePainter"],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/rochester-hills#webpage",
+        "url": "https://www.timmacdonoughpainting.com/rochester-hills",
+        "name": "Rochester Hills Painter | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Rochester Hills, MI",
-          "Oakland Township, MI",
-          "Lake Orion, MI",
-          "Shelby Township, MI",
-          "Metamora, MI",
-          "Troy, MI",
-          "Auburn Hills, MI",
-          "Clarkston, MI",
-          "Birmingham, MI",
-          "Sterling Heights, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/rochester-hills#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in Rochester Hills MI",
-        "provider": {"@type": "LocalBusiness", "name": "Tim MacDonough Painting Company"},
-        "areaServed": "Rochester Hills, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes in Rochester Hills, MI. Walls, ceilings, trim, crown molding, cabinets, and built-ins with premium prep and detail work."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in Rochester Hills MI",
-        "provider": {"@type": "LocalBusiness", "name": "Tim MacDonough Painting Company"},
-        "areaServed": "Rochester Hills, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for Rochester Hills homes. Siding, trim, doors, shutters, and porch work using durable finishes and thorough surface preparation."
-      },
-      {
-        "@type": "Service",
-        "name": "Residential Painting in Rochester Hills MI",
-        "provider": {"@type": "LocalBusiness", "name": "Tim MacDonough Painting Company"},
-        "areaServed": "Rochester Hills, MI and nearby Metro Detroit communities",
-        "serviceType": "Residential Painting",
-        "description": "Residential painting for Rochester Hills homes, from condos near downtown to custom-built estates, with an owner on-site from prep to final walkthrough."
-      },
-      {
-        "@type": "Service",
-        "name": "Commercial Painting in Rochester Hills MI",
-        "provider": {"@type": "LocalBusiness", "name": "Tim MacDonough Painting Company"},
-        "areaServed": "Rochester Hills, MI and nearby Metro Detroit communities",
-        "serviceType": "Commercial Painting",
-        "description": "Commercial painting for offices, retail storefronts, and medical suites along the Rochester Road and John R corridor, scheduled around business hours."
+        "@id": "https://www.timmacdonoughpainting.com/rochester-hills#service",
+        "name": "Painting Services in Rochester Hills, MI",
+        "url": "https://www.timmacdonoughpainting.com/rochester-hills",
+        "provider": {
+          "@id": "https://www.timmacdonoughpainting.com/#business"
+        },
+        "areaServed": {
+          "@type": "City",
+          "name": "Rochester Hills, MI"
+        },
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in Rochester Hills, MI."
       },
       {
         "@type": "FAQPage",
@@ -133,11 +110,13 @@
               "text": "Yes — free estimates are available for Rochester Hills homes and businesses. We provide a detailed written proposal after visiting the property."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/rochester-hills#faq"
       }
     ]
   }
   </script>
+
 
   <!-- BreadcrumbList Schema -->
   <script type="application/ld+json">

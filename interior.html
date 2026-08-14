@@ -31,56 +31,34 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": ["LocalBusiness", "HousePainter"],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/interior#webpage",
+        "url": "https://www.timmacdonoughpainting.com/interior",
+        "name": "Interior Painting Contractor | Tim MacDonough Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Rochester Hills, MI",
-          "Troy, MI",
-          "Birmingham, MI",
-          "Lake Orion, MI",
-          "Shelby Township, MI",
-          "Metamora, MI",
-          "Oakland Township, MI",
-          "Auburn Hills, MI"
-        ],
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-            "opens": "07:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
-          }
-        ]
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/interior#service"
+        },
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
         "name": "Interior Painting in Metro Detroit",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
         "areaServed": "Rochester Hills, MI and surrounding Metro Detroit communities",
         "serviceType": "Interior Painting",
-        "description": "Interior painting for luxury homes in Rochester Hills, MI and surrounding Metro Detroit communities. Walls, ceilings, trim, baseboards, crown molding, drywall repair, and cabinet painting. Full furniture and floor protection. Zero subcontractors."
+        "description": "Interior painting for luxury homes in Rochester Hills, MI and surrounding Metro Detroit communities. Walls, ceilings, trim, baseboards, crown molding, drywall repair, and cabinet painting. Full furniture and floor protection. Zero subcontractors.",
+        "@id": "https://www.timmacdonoughpainting.com/interior#service",
+        "url": "https://www.timmacdonoughpainting.com/interior"
       },
       {
         "@type": "FAQPage",
@@ -125,11 +103,13 @@
               "text": "Both. Whether it is one accent wall, a powder room refresh, or a full home repaint before a move-in, every job gets the same level of attention and prep. There is no job too small for the same standard of work."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/interior#faq"
       }
     ]
   }
   </script>
+
 
   <!-- BreadcrumbList Schema -->
   <script type="application/ld+json">

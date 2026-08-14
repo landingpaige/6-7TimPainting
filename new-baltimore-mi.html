@@ -33,71 +33,56 @@
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/new-baltimore-mi#webpage",
+        "url": "https://www.timmacdonoughpainting.com/new-baltimore-mi",
+        "name": "New Baltimore, MI Painter | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "New Baltimore, MI",
-          "Romeo, MI, Macomb Township, MI, Chesterfield Township, MI, Harrison Township, MI, Washington Township, MI",
-          "Metro Detroit, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/new-baltimore-mi#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in New Baltimore, MI",
+        "@id": "https://www.timmacdonoughpainting.com/new-baltimore-mi#service",
+        "name": "Painting Services in New Baltimore, MI",
+        "url": "https://www.timmacdonoughpainting.com/new-baltimore-mi",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
-        "areaServed": "New Baltimore, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes and businesses in New Baltimore, MI. Walls, trim, ceilings, and cabinets finished with premium prep and protection."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in New Baltimore, MI",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+        "areaServed": {
+          "@type": "City",
+          "name": "New Baltimore, MI"
         },
-        "areaServed": "New Baltimore, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for New Baltimore, MI homes and commercial properties. Siding, trim, doors, shutters, and porches completed with durable coatings."
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in New Baltimore, MI."
       },
       {
         "@type": "FAQPage",
@@ -115,7 +100,7 @@
             "name": "Do you use different coatings for homes near Anchor Bay?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Where it's warranted, yes \u2014 homes closer to the water benefit from more moisture-resistant coatings, which we can discuss during your estimate."
+              "text": "Where it's warranted, yes — homes closer to the water benefit from more moisture-resistant coatings, which we can discuss during your estimate."
             }
           },
           {
@@ -126,11 +111,13 @@
               "text": "Yes. We handle commercial painting for storefronts and professional buildings throughout New Baltimore."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/new-baltimore-mi#faq"
       }
     ]
   }
   </script>
+
 
 
   <!-- BreadcrumbList Schema -->

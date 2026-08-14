@@ -33,78 +33,56 @@
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/oakland-township#webpage",
+        "url": "https://www.timmacdonoughpainting.com/oakland-township",
+        "name": "Oakland Township Painter | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Oakland Township, MI",
-          "Lake Orion, MI",
-          "Rochester Hills, MI",
-          "Shelby Township, MI",
-          "Metamora, MI",
-          "Troy, MI",
-          "Auburn Hills, MI",
-          "Clarkston, MI",
-          "Birmingham, MI",
-          "Sterling Heights, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/oakland-township#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in Oakland Township MI",
+        "@id": "https://www.timmacdonoughpainting.com/oakland-township#service",
+        "name": "Painting Services in Oakland Township, MI",
+        "url": "https://www.timmacdonoughpainting.com/oakland-township",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
-        "areaServed": "Oakland Township, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes in Oakland Township, MI. Walls, ceilings, trim, crown molding, cabinets, and drywall repair with premium prep and a clean finish."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in Oakland Township MI",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+        "areaServed": {
+          "@type": "City",
+          "name": "Oakland Township, MI"
         },
-        "areaServed": "Oakland Township, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for Oakland Township homes. Siding, trim, doors, shutters, and fascia using Michigan-rated coatings and careful prep."
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in Oakland Township, MI."
       },
       {
         "@type": "FAQPage",
@@ -133,11 +111,13 @@
               "text": "Yes. Tim MacDonough Painting Company is fully licensed and insured, based right here in Oakland Township."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/oakland-township#faq"
       }
     ]
   }
   </script>
+
 
 
   <!-- BreadcrumbList Schema -->

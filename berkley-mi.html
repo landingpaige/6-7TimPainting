@@ -33,71 +33,56 @@
   <link rel="stylesheet" href="style.css" />
   <script type="application/ld+json">
   
+  
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": [
-          "LocalBusiness",
-          "HousePainter"
-        ],
-        "name": "Tim MacDonough Painting Company",
-        "url": "https://www.timmacdonoughpainting.com",
-        "telephone": "+12489782946",
-        "email": "timmacdonoughpainting@gmail.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Oakland Township",
-          "addressRegion": "MI",
-          "addressCountry": "US"
+        "@type": "WebPage",
+        "@id": "https://www.timmacdonoughpainting.com/berkley-mi#webpage",
+        "url": "https://www.timmacdonoughpainting.com/berkley-mi",
+        "name": "Berkley, MI Painting Contractor | Interior & Exterior Painting",
+        "isPartOf": {
+          "@id": "https://www.timmacdonoughpainting.com/#website"
         },
-        "areaServed": [
-          "Berkley, MI",
-          "Royal Oak, MI, Huntington Woods, MI, Pleasant Ridge, MI, Oak Park, MI, Ferndale, MI",
-          "Metro Detroit, MI"
-        ],
-        "openingHoursSpecification": [
+        "about": {
+          "@id": "https://www.timmacdonoughpainting.com/berkley-mi#service"
+        },
+        "mentions": [
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "07:00",
-            "closes": "18:00"
+            "@id": "https://www.timmacdonoughpainting.com/interior#service"
           },
           {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "08:00",
-            "closes": "15:00"
+            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/residential#service"
+          },
+          {
+            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
           }
-        ]
+        ],
+        "inLanguage": "en-US"
       },
       {
         "@type": "Service",
-        "name": "Interior Painting in Berkley, MI",
+        "@id": "https://www.timmacdonoughpainting.com/berkley-mi#service",
+        "name": "Painting Services in Berkley, MI",
+        "url": "https://www.timmacdonoughpainting.com/berkley-mi",
         "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+          "@id": "https://www.timmacdonoughpainting.com/#business"
         },
-        "areaServed": "Berkley, MI and nearby Metro Detroit communities",
-        "serviceType": "Interior Painting",
-        "description": "Interior painting for homes and businesses in Berkley, MI. Walls, trim, ceilings, and cabinets finished with premium prep and protection."
-      },
-      {
-        "@type": "Service",
-        "name": "Exterior Painting in Berkley, MI",
-        "provider": {
-          "@type": "LocalBusiness",
-          "name": "Tim MacDonough Painting Company"
+        "areaServed": {
+          "@type": "City",
+          "name": "Berkley, MI"
         },
-        "areaServed": "Berkley, MI and nearby Metro Detroit communities",
-        "serviceType": "Exterior Painting",
-        "description": "Exterior painting for Berkley, MI homes and commercial properties. Siding, trim, doors, shutters, and porches completed with durable coatings."
+        "serviceType": [
+          "Interior Painting",
+          "Exterior Painting",
+          "Residential Painting",
+          "Commercial Painting"
+        ],
+        "description": "Interior, exterior, residential, and commercial painting services provided by Tim MacDonough Painting Company in Berkley, MI."
       },
       {
         "@type": "FAQPage",
@@ -107,7 +92,7 @@
             "name": "Do you provide free estimates in Berkley?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. We'll walk the property with you, talk through the scope, and follow up with a written estimate \u2014 no pressure and no obligation."
+              "text": "Yes. We'll walk the property with you, talk through the scope, and follow up with a written estimate — no pressure and no obligation."
             }
           },
           {
@@ -123,14 +108,16 @@
             "name": "How do you handle overspray and staging on smaller lots?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We mask and tape thoroughly and keep equipment contained to your property line \u2014 something we pay extra attention to in tighter neighborhoods like Berkley."
+              "text": "We mask and tape thoroughly and keep equipment contained to your property line — something we pay extra attention to in tighter neighborhoods like Berkley."
             }
           }
-        ]
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/berkley-mi#faq"
       }
     ]
   }
   </script>
+
 
 
   <!-- BreadcrumbList Schema -->
