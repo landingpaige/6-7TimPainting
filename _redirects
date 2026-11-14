@@ -1,3 +1,15 @@
+# Repo-only working files: never serve them publicly.
+# Add any new .md or .py file in the repo root here too.
+/CLAUDE.md                        /404.html  404!
+/brand-guidelines.md              /404.html  404!
+/apply_location_content.py        /404.html  404!
+/implement_internal_links.py      /404.html  404!
+/location_content.py              /404.html  404!
+/rename_images.py                 /404.html  404!
+/rename_images_clean.py           /404.html  404!
+/restructure_location_pages.py    /404.html  404!
+/restructure_service_pages.py     /404.html  404!
+
 # Canonical clean/extensionless URLs for every page.
 # Netlify already serves e.g. /interior -> interior.html with a 200
 # (its default "pretty URL" file resolution) with no rule needed here.
