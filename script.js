@@ -169,7 +169,12 @@ function initForm(formId, successId) {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body:    payload
     })
-    .then(() => {
+    .then(res => {
+      if (!res.ok) throw new Error('Form submit failed: ' + res.status);
+      // GA4 lead conversion — mark "generate_lead" as a key event in GA4
+      if (typeof gtag === 'function') {
+        gtag('event', 'generate_lead', { form_name: form.getAttribute('name') || formId });
+      }
       form.reset();
       success.hidden = false;
       success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
@@ -241,5 +246,14 @@ document.querySelectorAll('.nav-list a').forEach(a => {
   const href = (a.getAttribute('href') || '').replace(/\/$/, '') || '/';
   if (href === currentPath) {
     a.classList.add('active');
+  }
+});
+
+/* ─── Click-to-call tracking ─────────────────────────────── */
+// GA4: mark "click_to_call" as a key event to count phone leads
+document.addEventListener('click', e => {
+  const link = e.target.closest('a[href^="tel:"]');
+  if (link && typeof gtag === 'function') {
+    gtag('event', 'click_to_call', { link_location: link.className || 'text-link', page_path: location.pathname });
   }
 });
