@@ -31,6 +31,131 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Business entity, repeated on every page so the Service "provider" @id resolves -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.timmacdonoughpainting.com/#website",
+        "name": "Tim MacDonough Painting Company",
+        "url": "https://www.timmacdonoughpainting.com/",
+        "publisher": {
+          "@id": "https://www.timmacdonoughpainting.com/#business"
+        }
+      },
+      {
+        "@type": [
+          "LocalBusiness",
+          "HousePainter"
+        ],
+        "@id": "https://www.timmacdonoughpainting.com/#business",
+        "name": "Tim MacDonough Painting Company",
+        "url": "https://www.timmacdonoughpainting.com/",
+        "telephone": "+12489782946",
+        "email": "timmacdonoughpainting@gmail.com",
+        "description": "Owner-operated luxury residential and commercial painting serving Rochester Hills, Troy, Birmingham, Lake Orion, Shelby Township, and Metro Detroit. 30+ years of experience, zero subcontractors, fully licensed and insured.",
+        "priceRange": "$$$",
+        "logo": "https://www.timmacdonoughpainting.com/images/logo-schema.png",
+        "image": "https://www.timmacdonoughpainting.com/images/718744573_2457778028067732_9120128460641081104_n.jpeg",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Oakland Township",
+          "addressRegion": "MI",
+          "addressCountry": "US"
+        },
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Rochester Hills, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Troy, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Lake Orion, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Shelby Township, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Metamora, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Oakland Township, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Oxford, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Auburn Hills, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Clarkston, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Sterling Heights, MI"
+          },
+          {
+            "@type": "City",
+            "name": "Washington Township, MI"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Oakland County, MI"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Macomb County, MI"
+          }
+        ],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "07:00",
+            "closes": "18:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "15:00"
+          }
+        ],
+        "slogan": "Elevated Service. Timeless Results.",
+        "foundingDate": "2006",
+        "founder": {
+          "@type": "Person",
+          "name": "Tim MacDonough"
+        },
+        "sameAs": [
+          "https://www.facebook.com/timmacdonoughpainting/",
+          "https://www.instagram.com/timmacdonoughpainting/",
+          "https://www.linkedin.com/company/tim-macdonough-painting-company/",
+          "https://www.tiktok.com/@timmacdonoughpaintingcompany",
+          "https://www.google.com/search?kgmid=/g/11txps0nmx"
+        ]
+      }
+    ]
+  }
+  </script>
   <script type="application/ld+json">
   
   
@@ -50,18 +175,10 @@
           "@id": "https://www.timmacdonoughpainting.com/oakland-township#service"
         },
         "mentions": [
-          {
-            "@id": "https://www.timmacdonoughpainting.com/interior#service"
-          },
-          {
-            "@id": "https://www.timmacdonoughpainting.com/exterior#service"
-          },
-          {
-            "@id": "https://www.timmacdonoughpainting.com/residential#service"
-          },
-          {
-            "@id": "https://www.timmacdonoughpainting.com/commercial#service"
-          }
+          {"@type": "Service", "@id": "https://www.timmacdonoughpainting.com/interior#service", "name": "Interior Painting", "url": "https://www.timmacdonoughpainting.com/interior"},
+          {"@type": "Service", "@id": "https://www.timmacdonoughpainting.com/exterior#service", "name": "Exterior Painting", "url": "https://www.timmacdonoughpainting.com/exterior"},
+          {"@type": "Service", "@id": "https://www.timmacdonoughpainting.com/residential#service", "name": "Residential Painting", "url": "https://www.timmacdonoughpainting.com/residential"},
+          {"@type": "Service", "@id": "https://www.timmacdonoughpainting.com/commercial#service", "name": "Commercial Painting", "url": "https://www.timmacdonoughpainting.com/commercial"}
         ],
         "inLanguage": "en-US"
       },
