@@ -2388,3 +2388,46 @@ a.contact-info-value:hover { color: var(--gold); }
   margin-bottom: 2.5rem;
 }
 .legal-content a { color: var(--navy); text-decoration: underline; }
+
+/* ─── Internal linking: nearby communities + grouped city directory ─── */
+.nearby-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.nearby-links a {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: var(--r-sm);
+  border: 1px solid rgba(14, 29, 58, 0.12);
+  background: var(--white);
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background var(--t), border-color var(--t);
+}
+.nearby-links a:hover {
+  border-color: rgba(242, 179, 34, 0.55);
+  background: rgba(242, 179, 34, 0.08);
+}
+.city-directory-group { max-width: 1200px; margin: 28px auto 0; }
+.city-directory-group h3 {
+  font-family: var(--font-display);
+  color: var(--navy);
+  font-size: 1.5rem;
+  margin: 0;
+}
+.city-directory-group h3 .area-county { display: block; margin-bottom: 2px; }
+.city-directory-group .city-directory-grid { margin: 14px auto 8px; }
+@media (max-width: 900px) {
+  .city-directory-group .city-directory-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.city-directory-group + .areas-grid { margin-top: 48px; }
+#nearby-areas p a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(242, 179, 34, 0.7); }
+.area-card li a, .areas-note p a { color: var(--navy); font-weight: 600; text-decoration: underline; text-decoration-color: rgba(242, 179, 34, 0.6); text-underline-offset: 3px; transition: color var(--t); }
+.area-card li a:hover, .areas-note p a:hover { color: var(--gold); }
