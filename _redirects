@@ -51,3 +51,16 @@
 # Legacy short alias — preserved in case it's referenced externally
 # (e.g. Google Business Profile, print materials).
 /privacy                 /privacy-policy               301!
+
+# Legacy URLs from the previous site design. Still in Google's index and
+# returning 404, so permanently redirect to their replacements to
+# consolidate ranking signals onto one URL per service.
+/interior-painting       /interior                     301!
+/exterior-painting       /exterior                     301!
+/interior-painting.html  /interior                     301!
+/exterior-painting.html  /exterior                     301!
+
+# Renamed location pages (old "-mi" slugs, removed from this repo).
+/lake-orion-mi           /lake-orion                   301!
+/rochester-hills-mi      /rochester-hills              301!
+/shelby-township-mi      /shelby-township              301!
