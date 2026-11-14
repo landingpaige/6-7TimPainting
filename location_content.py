@@ -77,6 +77,9 @@ LOCATIONS = {
     ("Do you offer free estimates in Birmingham?", "Yes. We'll walk your property and provide a free, written estimate with the scope of prep and painting spelled out."),
     ("Can you match or update the trim and color scheme on an older home?", "Yes. We can work with existing color schemes or help you update them, and we're comfortable working around original trim and plaster."),
     ("Do you paint both interiors and exteriors in Birmingham?", "Yes. We handle interior, exterior, residential, and commercial painting throughout Birmingham and nearby Bloomfield Hills, Beverly Hills, and Franklin."),
+    ('How much does interior painting cost in Birmingham?', "It depends on the home — square footage, ceiling heights, the number of rooms or elevations, and how much prep the surfaces need all change the price, so we don't quote flat numbers sight unseen. We'll walk your Birmingham property with you and follow up with a free, itemized written estimate so you know exactly what's included."),
+    ('Do you paint older homes in Birmingham?', 'Yes. Older homes usually need more preparation — patching plaster, filling cracks, and properly scraping and priming failing paint — and we assess all of that during the walkthrough. If your home was built before 1978, mention it when you request your estimate so we can talk through lead-safe preparation.'),
+    ('When should I schedule exterior painting in Birmingham?', "Michigan's exterior painting season generally runs from late spring through early fall, when temperatures and humidity let coatings cure properly. Those months book up, so reaching out in winter or early spring gives you the most scheduling options. Interior painting can be done year-round."),
   ],
 },
 
@@ -93,6 +96,9 @@ LOCATIONS = {
     ("Do you offer free estimates for larger properties in Bloomfield Hills?", "Yes. For larger or multi-phase projects, we walk the full property and provide a detailed written estimate that breaks out scope and sequencing."),
     ("Can you coordinate colors across multiple rooms or the full exterior?", "Yes. We can help plan a cohesive color scheme across rooms or an entire exterior, and provide samples before committing to a full repaint."),
     ("Do you paint occupied homes in Bloomfield Hills?", "Yes. Most estate-level work is done in phases while the home stays occupied, with furniture and flooring protected room by room."),
+    ('How much does luxury house painting cost in Bloomfield Hills?', "It depends on the home — square footage, ceiling heights, the number of rooms or elevations, and how much prep the surfaces need all change the price, so we don't quote flat numbers sight unseen. We'll walk your Bloomfield Hills property with you and follow up with a free, itemized written estimate so you know exactly what's included."),
+    ('Who will be on-site during my Bloomfield Hills project?', "Our own owner-led crew — never subcontractors. You'll have one point of contact from the estimate through the final walkthrough."),
+    ('When should I schedule exterior painting in Bloomfield Hills?', "Michigan's exterior painting season generally runs from late spring through early fall, when temperatures and humidity let coatings cure properly. Those months book up, so reaching out in winter or early spring gives you the most scheduling options. Interior painting can be done year-round."),
   ],
 },
 
@@ -301,6 +307,9 @@ LOCATIONS = {
     ("Do you offer free estimates in Oakland Township?", "Yes. Since this is our home base, scheduling an estimate in Oakland Township is often easier to fit in quickly."),
     ("Do you paint both interior and exterior properties in Oakland Township?", "Yes. We handle interior, exterior, residential, and commercial painting throughout Oakland Township and nearby Rochester Hills, Rochester, and Lake Orion."),
     ("Are you licensed and insured in Oakland Township?", "Yes. Tim MacDonough Painting Company is fully licensed and insured, based right here in Oakland Township."),
+    ('How much does interior house painting cost in Oakland Township?', "It depends on the home — square footage, ceiling heights, the number of rooms or elevations, and how much prep the surfaces need all change the price, so we don't quote flat numbers sight unseen. We'll walk your Oakland Township property with you and follow up with a free, itemized written estimate so you know exactly what's included."),
+    ('Do you paint detached garages and other outbuildings?', 'Yes. Many Oakland Township properties have more than one structure, and we include detached garages and outbuildings in the walkthrough so they can be scoped and priced alongside the house.'),
+    ('When should I schedule exterior painting in Oakland Township?', "Michigan's exterior painting season generally runs from late spring through early fall, when temperatures and humidity let coatings cure properly. Those months book up, so reaching out in winter or early spring gives you the most scheduling options. Interior painting can be done year-round."),
   ],
 },
 
@@ -445,6 +454,9 @@ LOCATIONS = {
     ("Do you offer free estimates in Troy?", "Yes. Free estimates are available for Troy homes and businesses. We provide an owner-led walkthrough and a clear written proposal."),
     ("Do you paint both interior and exterior properties in Troy?", "Yes. We handle interior painting, exterior painting, residential painting, and commercial painting throughout Troy and nearby Birmingham, Rochester Hills, and Royal Oak."),
     ("Are you licensed and insured in Troy?", "Yes. Tim MacDonough Painting Company is fully licensed and insured for all painting work in Troy and surrounding areas."),
+    ('How much does it cost to paint a house in Troy, MI?', "It depends on the home — square footage, ceiling heights, the number of rooms or elevations, and how much prep the surfaces need all change the price, so we don't quote flat numbers sight unseen. We'll walk your Troy property with you and follow up with a free, itemized written estimate so you know exactly what's included."),
+    ('Do you paint offices and commercial spaces in Troy?', 'Yes. We paint offices, professional suites, and commercial interiors in Troy, and we schedule the work around your business hours to keep disruption to a minimum.'),
+    ('Do you use subcontractors?', 'No. Every Troy project is handled by our own owner-led crew, from the first walkthrough to the final inspection.'),
   ],
 },
 
@@ -493,6 +505,9 @@ LOCATIONS = {
     ("Do you offer free estimates in Lake Orion?", "Yes. Free estimates are available for Lake Orion homes and businesses, including full-property walkthroughs for larger township lots."),
     ("Do you paint lakefront homes in Lake Orion?", "Yes. We use moisture-resistant coatings and extra prep time on lakefront and near-water properties around Lake Orion."),
     ("Are you licensed and insured in Lake Orion?", "Yes. Tim MacDonough Painting Company is fully licensed and insured for all painting work in Lake Orion and surrounding areas."),
+    ('How much does interior painting cost in Lake Orion?', "It depends on the home — square footage, ceiling heights, the number of rooms or elevations, and how much prep the surfaces need all change the price, so we don't quote flat numbers sight unseen. We'll walk your Lake Orion property with you and follow up with a free, itemized written estimate so you know exactly what's included."),
+    ('When is the best time to paint the exterior of a Lake Orion home?', "Michigan's exterior painting season generally runs from late spring through early fall, when temperatures and humidity let coatings cure properly. Those months book up, so reaching out in winter or early spring gives you the most scheduling options. Interior painting can be done year-round."),
+    ('How long will my painting project take?', "It depends on the scope and the amount of prep involved. We'll give you an expected timeline during your estimate, and because we don't hand jobs off to subcontractors, the schedule we set is the one our own crew works to."),
   ],
 },
 
