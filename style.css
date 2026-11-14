@@ -2431,3 +2431,13 @@ a.contact-info-value:hover { color: var(--gold); }
 #nearby-areas p a { color: var(--navy); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(242, 179, 34, 0.7); }
 .area-card li a, .areas-note p a { color: var(--navy); font-weight: 600; text-decoration: underline; text-decoration-color: rgba(242, 179, 34, 0.6); text-underline-offset: 3px; transition: color var(--t); }
 .area-card li a:hover, .areas-note p a:hover { color: var(--gold); }
+
+/* ─── Visible breadcrumbs (mirror BreadcrumbList schema) ─── */
+.breadcrumb { position: relative; z-index: 1; margin: 0 0 22px; }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0;
+  font-family: var(--font-body); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+.breadcrumb li { color: rgba(247, 243, 233, 0.6); display: inline-flex; align-items: center; }
+.breadcrumb li + li::before { content: "›"; margin-right: 6px; color: var(--gold); }
+.breadcrumb a { color: rgba(247, 243, 233, 0.85); text-decoration: none; transition: color var(--t); }
+.breadcrumb a:hover { color: var(--gold); }
+.breadcrumb li[aria-current="page"] { color: var(--gold); }
