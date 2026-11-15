@@ -47,7 +47,8 @@
 /privacy-policy.html     /privacy-policy               301!
 /quick-estimate.html     /quick-estimate               301!
 /residential.html        /residential                  301!
-/rochester-hills.html    /rochester-hills              301!
+/rochester-hills.html    /                             301!
+/rochester-hills         /                             301!
 /rochester-mi.html       /rochester-mi                 301!
 /romeo-mi.html           /romeo-mi                     301!
 /royal-oak-mi.html       /royal-oak-mi                 301!
@@ -74,5 +75,5 @@
 
 # Renamed location pages (old "-mi" slugs, removed from this repo).
 /lake-orion-mi           /lake-orion                   301!
-/rochester-hills-mi      /rochester-hills              301!
+/rochester-hills-mi      /                             301!
 /shelby-township-mi      /shelby-township              301!

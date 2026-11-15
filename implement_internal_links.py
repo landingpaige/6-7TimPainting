@@ -75,6 +75,12 @@ assert sorted(s for _, _, l in CLUSTERS for s in l) == sorted(NAMES)
 log = collections.defaultdict(list)
 
 
+# /rochester-hills was merged into the homepage (301 -> /). Link that slug to / so
+# re-running this script never recreates links to the retired page.
+def url(slug):
+    return "/" if slug == "rochester-hills" else f"/{slug}"
+
+
 def name_pattern(name):
     tail = ""
     if name == "Rochester":
@@ -105,7 +111,7 @@ def link_mentions(slug, html):
                 pat = name_pattern(name)
                 mm = pat.search(seg)
                 if mm:
-                    seg = seg[:mm.start()] + f'<a href="/{target}">{name}</a>' + seg[mm.end():]
+                    seg = seg[:mm.start()] + f'<a href="{url(target)}">{name}</a>' + seg[mm.end():]
                     done.add(target)
                     log[slug].append(f"linked mention → /{target}")
                     # re-split handled by restarting on this segment: keep simple, one link per segment pass
@@ -125,7 +131,7 @@ def link_mentions(slug, html):
 def nearby_block(slug):
     city = NAMES[slug]
     links = "\n".join(
-        f'          <a href="/{n}">{NAMES[n]}, MI</a>' for n in NEIGHBORS[slug]
+        f'          <a href="{url(n)}">{NAMES[n]}, MI</a>' for n in NEIGHBORS[slug]
     )
     return f'''    <section class="section bg-cream" id="nearby-areas">
       <div class="container">
