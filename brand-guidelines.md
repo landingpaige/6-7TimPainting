@@ -44,7 +44,7 @@ reflect the value of their investment.
 | Warm Cream       | `#F7F3E9` | Page backgrounds, card fills, section backgrounds  |
 | Rich Charcoal    | `#2B2B2B` | Body text, dark UI elements                        |
 | Elevated Taupe   | `#A79B8B` | Muted text, secondary labels, dividers             |
-| Stone Gray       | `#6E7277` | Supporting text, captions, placeholder text        |
+| Stone Gray       | `#62666B` | Supporting text, captions, placeholder text (was #6E7277; darkened for AA contrast) |
 
 ### Color Rules
 - **Never** use Heritage Navy and a dark charcoal together in body text —

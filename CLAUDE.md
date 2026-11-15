@@ -26,7 +26,7 @@ This is a static HTML/CSS/JS website for **Tim MacDonough Painting Company** —
 | `--cream` | `#F7F3E9` | Page/section backgrounds (preferred over white) |
 | `--charcoal` | `#2B2B2B` | Body text |
 | `--taupe` | `#A79B8B` | Muted/secondary text |
-| `--stone` | `#6E7277` | Captions, placeholders |
+| `--stone` | `#62666B` | Captions, placeholders (darkened from #6E7277 for WCAG AA contrast on cream) |
 
 Gold is an **accent only** — never a large background fill. Warm Cream is preferred over pure white for section backgrounds.
 
