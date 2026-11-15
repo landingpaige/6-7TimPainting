@@ -521,45 +521,13 @@ svg { display: block; }
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.7);
   margin-top: 5px;
 }
 .trust-divider {
   width: 1px;
   height: 44px;
   background: rgba(255,255,255,0.13);
-}
-
-/* Scroll indicator */
-.hero-scroll {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: var(--z-content);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  opacity: 0;
-  animation: fadeIn 1s 1.6s ease forwards;
-}
-.hero-scroll-label {
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.35);
-}
-.hero-scroll-line {
-  width: 1px;
-  height: 56px;
-  background: linear-gradient(to bottom, var(--gold), transparent);
-  animation: scrollPulse 2.2s 2s ease-in-out infinite;
-}
-@keyframes scrollPulse {
-  0%, 100% { opacity: 0.35; transform: scaleY(1); transform-origin: top; }
-  50%       { opacity: 0.9;  transform: scaleY(0.6); transform-origin: top; }
 }
 
 /* ─── Marquee ────────────────────────────────────────────── */
@@ -1991,7 +1959,7 @@ a.contact-info-value:hover { color: var(--gold); }
     scroll-behavior: auto !important;
   }
   .hero-eyebrow, .hero-title, .hero-subtitle,
-  .hero-actions, .hero-trust, .hero-scroll { opacity: 1; animation: none; }
+  .hero-actions, .hero-trust { opacity: 1; animation: none; }
   .hero-photo { animation: none; }
   .reveal { opacity: 1; transform: none; transition: none; }
   .marquee-track { animation: none; }
