@@ -70,6 +70,6 @@ Refer to `brand-guidelines.md` for approved vocabulary. Key rules:
 - **Phone:** (248) 978-2946 (`tel:+12489782946`)
 - **Email:** timmacdonoughpainting@gmail.com
 - **Domain:** timmacdonoughpainting.com
-- **Based:** Service-area business run from Tim's home (address not public). Public copy says "Serving Rochester Hills & Oakland County" — never name a home-base city
+- **Based:** Service-area business run from Tim's home (address not public). Public copy says "Serving Rochester Hills, Oakland & Macomb Counties" — never name a home-base city
 - **Hours:** Mon–Fri 7am–6pm, Sat 8am–3pm
-- **Founded:** 2006 | **30+ years experience** | **500+ projects** | **Zero subcontractors**
+- **Founded:** 2000 | **30+ years experience** | **500+ projects** | **Zero subcontractors**
