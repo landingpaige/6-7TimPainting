@@ -63,13 +63,13 @@ Refer to `brand-guidelines.md` for approved vocabulary. Key rules:
 - Avoid: cheap, affordable, budget, deal, fast, best (without proof)
 - Use: craftsmanship, distinguished, elevated, refined, flawless, white-glove
 - CTAs are invitations: "Request Your Complimentary Estimate" not "Click Here"
-- Be specific and local — name neighborhoods (Oakland Township, Lake Orion, Rochester Hills, Shelby Township, Metamora, Oxford, Auburn Hills, Clarkston, Troy, Bloomfield Hills, Birmingham)
+- Be specific and local — name neighborhoods (Rochester Hills, Lake Orion, Oakland Township, Shelby Township, Metamora, Oxford, Auburn Hills, Clarkston, Troy, Bloomfield Hills, Birmingham)
 
 ## Business Details
 
 - **Phone:** (248) 978-2946 (`tel:+12489782946`)
 - **Email:** timmacdonoughpainting@gmail.com
 - **Domain:** timmacdonoughpainting.com
-- **Based:** Oakland Township, MI
+- **Based:** Service-area business run from Tim's home (address not public). Public copy says "Serving Rochester Hills & Oakland County" — never name a home-base city
 - **Hours:** Mon–Fri 7am–6pm, Sat 8am–3pm
 - **Founded:** 2006 | **30+ years experience** | **500+ projects** | **Zero subcontractors**
